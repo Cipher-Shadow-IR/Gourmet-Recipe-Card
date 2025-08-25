@@ -1,0 +1,175 @@
+/* === Base Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(30, 54%, 90%);
+  color: hsl(30, 10%, 34%);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+/* === Card Container === */
+.card {
+  max-width: 740px;
+  background: #fff;
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* === Image === */
+.imgomlt {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+/* === Headings === */
+h1 {
+  font-family: 'Young Serif', serif;
+  font-size: 2.2rem;
+  color: hsl(24, 5%, 18%);
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-family: 'Young Serif', serif;
+  font-size: 1.5rem;
+  margin: 1.8rem 0 1rem;
+  color: hsl(14, 45%, 36%);
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+  color: hsl(332, 51%, 32%);
+}
+
+/* === Paragraph === */
+p {
+  margin-bottom: 1.25rem;
+}
+
+/* === Preparation Time Box === */
+.prep-time {
+  background: hsl(330, 100%, 98%);
+  padding: 1.25rem 1.5rem;
+  border-radius: 12px;
+  list-style: disc;
+  margin-bottom: 1.5rem;
+  margin-left: 0rem;
+}
+
+.prep-time li {
+  margin-bottom: 0.6rem;
+  color: hsl(30, 10%, 34%);
+  margin-left: 1.2rem;
+}
+
+/* === Horizontal Lines === */
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 1.5rem 0;
+}
+
+/* === Ingredients === */
+ul {
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.75rem;
+}
+
+ul li {
+  padding-left: 0.5rem;
+}
+
+/* Bold part in steps */
+ul b {
+  color: hsl(24, 5%, 18%);
+}
+
+/* === Instruction === */
+ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+ol li {
+  padding-left: 1rem;
+}
+
+/* === Table (Nutrition) === */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+table th, table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+table th {
+  font-weight: normal;
+  color: hsl(30, 10%, 34%);
+}
+
+table td {
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+}
+
+/* === Attribution === */
+footer.attribution {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 2rem;
+  display: none;
+  color: hsl(30, 10%, 34%);
+}
+footer.attribution a {
+  color: hsl(14, 45%, 36%);
+  text-decoration: none;
+}
+footer.attribution a:hover {
+  text-decoration: underline;
+}
+
+/* === Responsive Layouts === */
+
+/* Tablets */
+@media (max-width: 768px) {
+  body {
+    padding: 1.5rem;
+  }
+  .card {
+    padding: 2rem;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 480px) {
+  body {
+    padding: 1rem;
+  }
+  .card {
+    padding: 1.5rem;
+  }
+  .imgomlt {
+    border-radius: 8px;
+  }
+}
