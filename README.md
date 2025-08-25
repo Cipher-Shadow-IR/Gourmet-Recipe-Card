@@ -36,3 +36,38 @@
 ├── 🗂️ index.html
 ├── 🎨 styles.css
 ├── 📄 README.md
+````
+
+---
+
+### 🛠️ Under the Hood
+
+* **HTML5** – Semantic layout and structure
+* **CSS3** – Styling, responsiveness, media queries
+* *(Optional Future)* JavaScript for interactivity
+
+---
+
+### 🔭 Roadmap & Future Plans
+
+* 🌗 Dark/Light mode toggle
+* 📖 Multiple recipe support
+* ✨ Interactive version with JavaScript
+* 🧩 Theme customization
+
+---
+
+### 🙌 Thanks To
+
+* **Myself 😎** – for designing, coding, and launching
+* **Frontend Mentor** – for challenging all the web developers out there
+* **HTML & CSS** – for giving this project its shape and speed
+* **Vision + Curiosity** – for pushing me to make it better
+
+---
+
+<p align="center">
+  <img src="https://img.icons8.com/fluency/48/rocket.png" /><br><br>
+  <b>Cook with Code. Serve with Style.</b><br>
+  <i>~ Cipher Shadow IR (Ishaan Ray)</i>
+</p>
