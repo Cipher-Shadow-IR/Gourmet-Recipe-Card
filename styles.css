@@ -60,14 +60,28 @@ p {
 }
 
 /* === Preparation Time Box === */
+.prep-block {
+  margin-bottom: 1.5rem;
+}
+
+.prep-block h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: clamp(1.05rem, 1.4vw, 1.2rem);
+}
+
 .prep-time {
   background: hsl(330, 100%, 98%);
   padding: 1.25rem 1.5rem;
   border-radius: 12px;
   list-style: disc;
-  margin-bottom: 1.5rem;
-  margin-left: 0rem;
+  margin: 0; /* reset if needed */
 }
+
+.prep-time li {
+  margin-bottom: 0.6rem;
+  margin-left: 1.2rem;
+}
+
 
 .prep-time li {
   margin-bottom: 0.6rem;
